@@ -2,20 +2,20 @@
 Spring 4 Rest
 
 Настройки базы данных - 
-kz.test.spring.config.AppConfig.java
-        dataSource.setUrl("jdbc:mysql://localhost:3306/testdb");
-        dataSource.setUsername("root" );
-        dataSource.setPassword("");
-расскоментировать строку для автоматического создания таблицы БД
-      //  properties.setProperty("hibernate.hbm2ddl.auto", "create-drop");
+kz.test.spring.config.AppConfig.java	
+        dataSource.setUrl("jdbc:mysql://localhost:3306/testdb");	
+        dataSource.setUsername("root" );	
+        dataSource.setPassword("");	
+расскоментировать строку для автоматического создания таблицы БД	
+      //  properties.setProperty("hibernate.hbm2ddl.auto", "create-drop");		
 
 
-$ git clone https://github.com/nurikpyn/springRest
-$ mvn tomcat7:run
+$ git clone https://github.com/nurikpyn/springRest		
+$ mvn tomcat7:run			
 
 
-Настройки базы данных - 
-kz.test.spring.config.AppConfig.java
+Настройки базы данных - 	
+kz.test.spring.config.AppConfig.java	
         dataSource.setUrl("jdbc:mysql://localhost:3306/testdb");
         dataSource.setUsername("root" );
         dataSource.setPassword("");
